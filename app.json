@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Playwise",
-    "slug": "Playwise",
+    "slug": "Playwise-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +10,12 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      },
+      "url": "https://u.expo.dev/77710c7b-e328-4011-b54e-4f66659d88e5"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +27,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ajeetsingh2016.Playwiseapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77710c7b-e328-4011-b54e-4f66659d88e5"
+      }
+    },
+    "runtimeVersion": "1.0.0"
   }
 }
